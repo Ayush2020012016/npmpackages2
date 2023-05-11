@@ -6,7 +6,17 @@ import View from "./pages/View.js";
 import Edit from "./pages/Edit.js";
 
 const App = () => {
-  return <div>ayush</div>;
+  return (
+    // <Router>
+    //   <Routes>
+    //     <Route exact path="/add" element={<AddFavorite />} />
+    //     <Route exact path="/edit" element={<Edit />} />
+    //     <Route exact path="/view" element={<View />} />
+    //     <Route exact path="/" element={<Homepage />} />
+    //   </Routes>
+    // </Router>
+    <div>ayush</div>
+  );
 };
 
 export default App;
